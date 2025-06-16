@@ -33,11 +33,6 @@
   padding-right: 20px;
 }
 
-#main {
-  position: relative;
-  width: 100%;
-  background-color: green;
-}
 
 
 .nav-link {
@@ -50,4 +45,28 @@
 
 .nav-link:hover {
   background-color: black;
+}
+
+#main {
+  position: relative;
+  width: 100%;
+  background-color: green;
+}
+
+
+#section-1 {
+  margin-top: 50px;
+}
+
+#section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow : row;
+}
+
+#video {
+  width: 360px;
+  height: 240px;
 }
